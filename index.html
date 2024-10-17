@@ -1,0 +1,95 @@
+<!-- Created by Johnathon Wilt for CIS191 -->
+<!-- Project: Personal Portfolio Website-->
+ 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ePortfolio - Johnathon Wilt</title>
+
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="icon" type="image/png" href="images/logo.png" />
+    </head>
+    <body>
+        <!-- The div "topnav" denotes the fixed navigation bar at top -->
+        <div class="topnav">
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+            <a href="work.html">Work</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="activities.html">Activities</a>
+            <a href="community.html">Community</a>
+            <a href="resume.html">Resume</a>
+            <a href="about.html">About Me</a>
+            <a href="index.html"><img id="logo" src="images/logo.png" alt="logo" width="32" /></a>
+        </div>
+
+        <div class="banner">
+            <h1>Welcome!</h1>
+        </div>
+
+        <!-- Created the div class "content" in order to be able to center
+           the main content using CSS (paragraphs, headings, etc) -->
+        <div class="content">
+            <p class="main_paragraph">
+                Hi! I am <a href="about.html">Johnathon Wilt</a>. I am a sophomore at Messiah University. I am a Cybersecurity major with a Web Development minor. I grew up in Perry County, PA (a very rural area close to Mechanicsburg, PA).
+                I have four siblings two dogs: an American Eskimo named Ace and a Golden Retreiver named Miles.
+            </p>
+            <p>
+                In this website, you will find information on a wide variety of things in my life, such as who I am, my resume, my hobbies, activities I am involved in, where I work, my work experience, and a page to contact me if you so
+                desire!
+            </p>
+            <hr />
+            <h2>My Values</h2>
+            <p>
+                As you already know, I go to Messiah University. My values are based upon Jesus Christ and His Orthodox Church. I was baptized into the Orthodox Church in April 2024 and Christ's teachings and Church guide my life and inform
+                my values. My faith plays a central role in my life. While I am not as good of a Christian as I could be, I try my best to be honest, hardworking, and patient.
+            </p>
+
+            <div><img src="images/baptism.jpg" alt="My baptism" width="50%" /></div>
+            <hr />
+
+            <h2>Things I am Passionate About</h2>
+            <p>
+                I am passionate about learning more about the Cybersecurity world. I love learning new things about the internet, especially Linux systems. I've been using Linux since I was 5 when my dad installed it on all of our systems.
+                It was just his preference.
+            </p>
+            <p>
+                I am passionate about a few social issues, but especially abortion as I believe that it is highly immoral and must stop happening in the world. I attend anti-abortion clubs and protests sometimes.
+            </p>
+            <p>
+                I am also passionate about helping others with issues that they are going through in their lives. If I can help someone work through an issue or give them advice that would help them go what they are going through, I am very
+                happy. Many times, they are struggling through the same things that I am and so I can help them.
+            </p>
+            <b>
+                <p>See more about what I am passionate about on my <a href="hobbies.html">hobbies</a> page.</p>
+            </b>
+            <hr />
+
+            <h2>My Favorite YouTube Video</h2>
+            <p>I love to fly fish, and this YouTuber I watch has both great energy and great footage of his fishing trips. This is my favorite video because of the massive wild Chinook (King) Salmon he caught.</p>
+            <iframe
+                width="100%"
+                height="400"
+                src="https://www.youtube.com/embed/EZJrjsaTWkw?si=8p2KU-rX_TbFKAri"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+            ></iframe>
+
+            <script>
+                function scrollToBottom() {
+                    window.scrollTo({
+                        top: document.body.scrollHeight /* Scroll to the bottom */,
+                        behavior: "smooth" /* Smooth scrolling effect */,
+                    });
+                }
+            </script>
+            <hr/>
+        </div>
+        <button class="scroll-button" onclick="scrollToBottom()">&#x25BC;</button>
+    </body>
+</html>

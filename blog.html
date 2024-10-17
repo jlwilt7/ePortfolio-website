@@ -1,0 +1,88 @@
+<!-- Created by Johnathon Wilt for CIS191 -->
+<!-- Project: Personal Portfolio Website-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog Post - Johnathon Wilt</title>
+
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="icon" type="image/png" href="images/logo.png" />
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+            <a href="work.html">Work</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="activities.html">Activities</a>
+            <a href="community.html">Community</a>
+            <a href="resume.html">Resume</a>
+            <a href="about.html">About Me</a>
+            <a href="index.html"><img id="logo" src="images/logo.png" width="32" /></a>
+        </div>
+
+        <div class="content">
+            <h1 class="first_content">Blog #1: My Experiences at Messiah</h1>
+            <p>
+                I began studying at Messiah University in 2023 in the cybersecurity program. In this blog post, I will detail struggles that I went through, things that I learned over the course of my first year, and the good times that I
+                had. Thanks for reading!
+            </p>
+            <div><img src="images/jordan_kline.jpg" alt="Jordan-Kline Messiah Building" width="100%" /></div>
+            <h2>Beginning My Freshman Year</h2>
+            <div><img src="images/lonely.jpg" alt="Lonely stock image" width="100%" /></div>
+            <p>
+                I was nervous going into my freshman year about making friends, managing my time correctly, and whether I would like my major. The first week I relied heavily on God as I didn't have many people to talk to. But soon, I made
+                a few good friends and one of them is my current roommate.
+            </p>
+            <h2>Learning Time Management</h2>
+            <div><img src="images/clock.jpg" alt="Time alarm clock" width="100%" /></div>
+            <p>
+                My first semester was rough academically. Though I got good grades, I was a major procrastinator. I was able to submit most of my assignments on time, but I waited until the last minute which only made me more stressed.
+                After the first semester, I decided to change my habits and get assignments done sooner rather than later. It was a big adjustment, but I have enjoyed not being as stressed about my schoolwork getting finished.
+            </p>
+            <h2>Going to Clubs</h2>
+            <div><img src="images/club.jpg" alt="Club picture" width="100%" /></div>
+            <p>
+                I made several good friends at Orthodox Christian Fellowship on campus. It allowed me to network with people my age not simply about the faith, but also just as friends. I also started attending the fly fishing club once it
+                started up in the spring, and the guys there helped me learn how to fly fish. I attended Messiah's Collegiate Cyber Defense Competition Team (CCDC for short) to learn more about Linux systems and Cybersecurity in general.
+            </p>
+            <h2>Taking Exams</h2>
+            <div><img src="images/exam.jpg" alt="Students taking exams" width="100%" /></div>
+            <p>
+                When I first came to college, I expected exams to have similar weighting to my previous high school courses - I was dead wrong. Not only were exams much more difficult, but I had to study for them for DAYS, not mere hours.
+                Admittedly, it was an adjustment. However, I started making comprehensive study guides and writing my notes to help smush all the info into my small brain.
+            </p>
+            <h2>Closing Out the Year</h2>
+            <p>
+                I closed out the year strong - stressful finals, but I got good grades. Looking back, I wouldn't have changed a thing. My struggles that year were valuable, teaching me a lot about myself, other people, and the world. I look
+                forward to the coming years at Messiah University.
+            </p>
+
+            <script>
+                function scrollToBottom() {
+                    window.scrollTo({
+                        top: document.body.scrollHeight /* Scroll to the bottom */,
+                        behavior: "smooth" /* Smooth scrolling effect */,
+                    });
+                }
+            </script>
+            <hr/>
+            <div class="comments-section">
+                <h2>Leave a Comment</h2>
+                <form class="comment-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required />
+
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="comment" rows="5" placeholder="Write your comment here..." required></textarea>
+
+                    <button type="submit">Submit Comment</button>
+                </form>
+            </div>
+        </div>
+        <button class="scroll-button" onclick="scrollToBottom()">&#x25BC;</button>
+    </body>
+</html>
